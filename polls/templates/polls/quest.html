@@ -1,0 +1,5 @@
+<form action="add_question" method="post">
+    질문 : <input type="text" name="text">
+    {% csrf_token %}
+    <input type="submit" value="질문 작성">
+</form>
